@@ -1,0 +1,12 @@
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\SystemLang\alerts.json
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\mah-discord-bot.exe.config
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\mah-discord-bot.exe
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\mah-discord-bot.pdb
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\Newtonsoft.Json.dll
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\Newtonsoft.Json.pdb
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\Newtonsoft.Json.xml
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.csprojAssemblyReference.cache
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.csproj.CoreCompileInputs.cache
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.csproj.CopyComplete
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.exe
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.pdb
