@@ -17,7 +17,7 @@ namespace mah_discord_bot
         public static BotConfig bot;
 
         static Config()
-        {
+        {   
             if (!Directory.Exists(configFolder))
             {
                 Directory.CreateDirectory(configFolder);

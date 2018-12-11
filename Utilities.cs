@@ -7,12 +7,14 @@ using Newtonsoft.Json;
 using System.IO;
 
 namespace mah_discord_bot
-{
+{   
+    //Reads from alerts.json
     class Utilities
     {
-
+                
         private static Dictionary<string,string> alerts;
 
+        //File 
         static Utilities()
         {
             string json = File.ReadAllText("SystemLang\\alerts.json");
@@ -21,6 +23,7 @@ namespace mah_discord_bot
             alerts = data;
         }
 
+        //Enter the key from alerts.json that you want to read
         public static string GetAlert(string key)
         {
             if (key != "")
