@@ -12,7 +12,8 @@ namespace mah_discord_bot
         static void Main(string[] args)
         { 
 
-            Console.WriteLine("test: " + Config.bot.token);
+            Console.WriteLine("token: " + Config.bot.token);
+            Console.WriteLine("cmdPrefix: " + Config.bot.cmdPrefix);
             Console.ReadLine();
         }
     }

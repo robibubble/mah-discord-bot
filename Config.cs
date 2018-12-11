@@ -34,11 +34,15 @@ namespace mah_discord_bot
                 string json = File.ReadAllText(path);
                 bot = JsonConvert.DeserializeObject<BotConfig>(json);
 
-                switch (bot)
+                if (bot.token == null)
                 {
-                    
+                    Console.WriteLine("Could not optain bot.token from {0}", path);
                 }
+                else if(bot.cmdPrefix == null)
+                {
+                    Console.WriteLine("Could not optain cmdPrefix from {0}", path);
 
+                }
             }
         }
     }
