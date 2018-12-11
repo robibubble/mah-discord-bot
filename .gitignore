@@ -237,3 +237,5 @@ _Pvt_Extensions
 .fake/
 
 config.json
+bin/Debug/Resources/config.json
+*.json
