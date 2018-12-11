@@ -11,15 +11,26 @@ namespace mah_discord_bot
     class Utilities
     {
 
+        private static Dictionary<string,string> alerts;
+
         static Utilities()
         {
             string json = File.ReadAllText("SystemLang\\alerts.json");
             var data = JsonConvert.DeserializeObject<Dictionary<string, string>>(json);
+
+            alerts = data;
         }
 
         public static string GetAlert(string key)
         {
-            return key;
+            if (key != "")
+            {
+                return alerts[key];
+            }
+            else
+            {
+                return "";
+            }
         }
     }
 }
