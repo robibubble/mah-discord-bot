@@ -10,3 +10,4 @@ K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.
 K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.csproj.CopyComplete
 K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.exe
 K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\obj\Debug\mah-discord-bot.pdb
+K:\visual sutdio proj\mah-discord-bot\mah-discord-bot\bin\Debug\Resources\config.json

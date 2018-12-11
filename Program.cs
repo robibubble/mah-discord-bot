@@ -12,7 +12,8 @@ namespace mah_discord_bot
         static void Main(string[] args)
         { 
 
-            Console.WriteLine(Utilities.GetAlert("test"));
+            Console.WriteLine("test: " + Config.bot.token);
+            Console.ReadLine();
         }
     }
 }
