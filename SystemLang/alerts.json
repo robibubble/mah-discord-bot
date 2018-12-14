@@ -1,3 +1,5 @@
 {
-  "test": "my dig is big"
+  "test": "my dig is big",
+  "welcome_&NAME_&BOTNAME": "Hello {0}, my name is {1}",
+  "hello_&USERNAME":  "{0} Greets you."
 }

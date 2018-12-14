@@ -35,5 +35,22 @@ namespace mah_discord_bot
                 return "";
             }
         }
+
+        public static string GetFomrattedAlert(string key, params object[] parameter)
+        {
+            if (key != "")
+            {
+                return String.Format(alerts[key], parameter);
+            }
+            else
+            {
+                return "";
+            }
+        }
+
+        public static string GetFomrattedAlert(string key, object parameter)
+        {
+            return GetFomrattedAlert(key, new object[] { parameter });
+        }
     }
 }

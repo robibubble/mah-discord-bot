@@ -17,17 +17,10 @@ namespace mah_discord_bot.Modules
         {
             var embed = new EmbedBuilder();
 
-            if (message == "hi" && message == "hi guys")
-            {
-                embed.WithTitle(Context.User.Username + " Says Hi ");
-                embed.WithThumbnailUrl("https://pbs.twimg.com/media/Bnnn6C8IEAA9rhs.jpg:large");
-            }
-            else
-            {
-                embed.WithTitle(Context.User.Username + " Says...");
-                embed.WithDescription(message);
-                embed.WithColor(new Color(Color.DarkBlue.RawValue));
-            }
+            embed.WithTitle(Context.User.Username + " Says...");
+            embed.WithDescription(message);
+            embed.WithColor(new Color(Color.DarkBlue.RawValue));
+            embed.WithThumbnailUrl(Context.User.GetAvatarUrl());
 
             await Context.Channel.SendMessageAsync("", false, embed);
         }
@@ -44,10 +37,40 @@ namespace mah_discord_bot.Modules
             embed.WithTitle("Choise for " + Context.User.Username);
             embed.WithDescription(slection);
             embed.WithColor(new Color(Color.DarkGreen.RawValue));
-            //embed.WithThumbnailUrl("https://pbs.twimg.com/media/Bnnn6C8IEAA9rhs.jpg:large");
 
+            
             await Context.Channel.SendMessageAsync("", false, embed);
-
         }
+
+        [Command("hello")]
+        public async Task hello()
+        {
+            var embed = new EmbedBuilder();
+            embed.WithTitle(Utilities.GetFomrattedAlert("hello_&USERNAME", Context.User.Username));
+
+            switch (Context.User.Username)
+            {
+                case "Roobix13":
+                    embed.WithDescription("Daddy is here");
+                    break;
+                case "Adueee":
+                    embed.WithDescription("Sah Dudes ");
+                    break;
+                case "Bhishma":
+                    embed.WithDescription("Netflix anyway lol");
+                    break;
+                case "waldo":
+                    embed.WithDescription(":RRRRRRRRRREEEEEEEEEEEEEEEEE:");
+                    break;
+                case "Nifas22":
+                    embed.WithDescription("Fifa anyway lol");
+                    break;
+                default:
+                    embed.WithDescription("Im big gaye");
+                    break;
+            }
+            await Context.Channel.SendMessageAsync("", false, embed);
+        }
+
     }
 }
